@@ -1,0 +1,84 @@
+.navs {
+  background-color: #203040;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.navs li Link {
+  font-weight: 500;
+  font-size: 16px;
+}
+.navs ul h1 {
+  display: inline;
+}
+.navs ul li {
+  margin-right: 20px;
+  list-style-type: none;
+  color: rgb(255, 255, 255);
+  display: inline-flex;
+  padding: 6px;
+}
+.navs h2:hover {
+  background-color: #141f2a;
+  border-radius: 5px;
+}
+.navs ul li:hover {
+  background-color: #141f2a;
+  border-radius: 5px;
+}
+.root {
+  display: flex;
+  padding: 0px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px rgb(6, 6, 179), inset 3px 3px 3px rgb(6, 6, 179);
+}
+.root input {
+  width: 80%;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin-left: 7px;
+  background-color: transparent;
+}
+.btn {
+  text-align: center;
+  padding: 10px;
+  margin-top: 4px;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.dataList {
+  margin-top: 5px;
+  height: 100px;
+  background-color: #141f2a;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: hidden;
+  overflow-y: auto;
+  position: absolute;
+  top: 10%;
+  width: 400px;
+  text-align: center;
+}
+.dataList::-webkit-scrollbar {
+  display: none;
+}
+
+.dataList .valueList {
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  color: white;
+}
+.valueList:hover {
+  background-color: #203040;
+}
+.dataList {
+  margin-left: 10px;
+}
+.li:hover {
+  background-color: transparent;
+}

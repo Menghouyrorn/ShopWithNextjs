@@ -1,0 +1,8 @@
+.Image:hover{
+    box-shadow: 5px 5px 5px #7ffD,inset 5px 5px 5px #7FFD ;
+
+}
+.Image{
+    margin-left:10px;
+    border: 1px solid #C0C0C0;
+}
